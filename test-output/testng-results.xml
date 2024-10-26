@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-24T08:04:21 IST" name="Full Regression" finished-at="2024-10-24T08:05:02 IST" duration-ms="41080">
+    <groups>
+    </groups>
+    <test started-at="2024-10-24T08:04:21 IST" name="Module A" finished-at="2024-10-24T08:05:02 IST" duration-ms="41080">
+      <class name="tests.AddItemsToCartTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:tests.AddItemsToCartTest@58cbafc2]" started-at="2024-10-24T08:04:21 IST" name="beforeMethod" finished-at="2024-10-24T08:04:32 IST" duration-ms="11695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@264f218]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:tests.AddItemsToCartTest@58cbafc2]" started-at="2024-10-24T08:04:32 IST" name="loginTest" finished-at="2024-10-24T08:04:50 IST" duration-ms="18046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.AddItemsToCartTest@58cbafc2]" started-at="2024-10-24T08:04:50 IST" name="afterMethod" finished-at="2024-10-24T08:04:51 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.AddItemsToCartTest -->
+      <class name="tests.LoginLogoutTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:tests.LoginLogoutTest@13e344d]" started-at="2024-10-24T08:04:21 IST" name="beforeMethod" finished-at="2024-10-24T08:04:31 IST" duration-ms="9841" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@264f218]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:tests.LoginLogoutTest@13e344d]" started-at="2024-10-24T08:04:31 IST" name="loginTest" finished-at="2024-10-24T08:04:53 IST" duration-ms="22359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.LoginLogoutTest@13e344d]" started-at="2024-10-24T08:04:53 IST" name="afterMethod" finished-at="2024-10-24T08:04:54 IST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.LoginLogoutTest -->
+      <class name="tests.CompleteFlowTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:tests.CompleteFlowTest@235ecd9f]" started-at="2024-10-24T08:04:21 IST" name="beforeMethod" finished-at="2024-10-24T08:04:29 IST" duration-ms="8236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@264f218]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:tests.CompleteFlowTest@235ecd9f]" started-at="2024-10-24T08:04:29 IST" name="loginTest" finished-at="2024-10-24T08:04:59 IST" duration-ms="30573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.CompleteFlowTest@235ecd9f]" started-at="2024-10-24T08:04:59 IST" name="afterMethod" finished-at="2024-10-24T08:05:00 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.CompleteFlowTest -->
+      <class name="tests.EndToEndTest">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:tests.EndToEndTest@1ca3b418]" started-at="2024-10-24T08:04:21 IST" name="beforeMethod" finished-at="2024-10-24T08:04:34 IST" duration-ms="12983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@264f218]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginTest()[pri:0, instance:tests.EndToEndTest@1ca3b418]" started-at="2024-10-24T08:04:34 IST" name="loginTest" finished-at="2024-10-24T08:05:01 IST" duration-ms="27244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.EndToEndTest@1ca3b418]" started-at="2024-10-24T08:05:01 IST" name="afterMethod" finished-at="2024-10-24T08:05:02 IST" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.EndToEndTest -->
+    </test> <!-- Module A -->
+  </suite> <!-- Full Regression -->
+</testng-results>
